@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "BoxeMode",
+  "description": "Add boxes that outlines all HTML elements in a page to better understand the design and layout.",
+  "version": "1.0",
+  "icons": {
+    "16": "images/box-16.png",
+    "32": "images/box-32.png",
+    "48": "images/box-48.png",
+    "128": "images/box-128.png"
+  },
+  "action": {
+    "default_title": "Click to enable BoxMode"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "js/background.js"
+  }
+}

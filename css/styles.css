@@ -1,0 +1,6 @@
+*,
+*:before,
+*:after {
+  outline: solid 0.5px #db6a7d;
+  border: 0;
+}
